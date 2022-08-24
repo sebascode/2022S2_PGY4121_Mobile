@@ -13,7 +13,7 @@ Para usarlo se deben seguir los siguientes pasos:
    - Opcionalmente: si desconoces si tu sección está creada, puede revisar la lista de branches desde el **Github** o bien utilizar el comando `git branch -r` (donde `-r` indica a git que son las ramas remotas las que queremos ver).
 4. Profit 📈
 
->> Recuerda que debes estar dentro de la carpeta del proyecto para ejecutar tu código `git` e `ionic`
+> Recuerda que debes estar dentro de la carpeta del proyecto para ejecutar tu código `git` e `ionic`
 
 ## ¿Cómo saber si tengo instalado Ionic?
 Ionic es un framework híbrido para desarrollo de plataformas, lo que significa que utilizamos un lenguaje y unas librerías para crear contenido para múltiples dispositivos.
