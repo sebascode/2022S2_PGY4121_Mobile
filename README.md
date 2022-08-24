@@ -23,7 +23,7 @@ Para comprobar que versiones posees instaladas de cada lenguaje, sigue el siguie
 1. Abrir consola, terminal (no se recomienda powershell en computadores duoc).
 2. Verificar si `node` se encuentra instalado corriendo el comando `node -version`, si entrega versión, todo ok ✅.
    - Si entrega un mensaje similar a `node: command not found` es porque no se encuentra node instalado, por consecuencia `npm` tampoco estará instalado.
-   - Para corregir, debes instalar `node` desde su página web: (Node JS)[https://nodejs.org/es/]
+   - Para corregir, debes instalar `node` desde su página web: [Node JS](https://nodejs.org/es/)
 3. Verificar si `npm` se encuentra instalado corriendo el comando `npm -version`, si entrega versión, todo ok ✅.
 4. Verificar si `ionic` se encuentra instalado corriendo el comando `ionic`, si entrega un mensaje del `ionic cli`, todo ok ✅.
    - En caso de no estar instalado, correr el comando `npm install -g @ionic/cli` y esperar.
