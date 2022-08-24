@@ -2,7 +2,7 @@ import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
   appId: 'io.ionic.starter',
-  appName: '2022S2_PGY4121_Mobile',
+  appName: 'ionic-tabs',
   webDir: 'www',
   bundledWebRuntime: false
 };
