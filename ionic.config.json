@@ -1,0 +1,7 @@
+{
+  "name": "DemoTablitas",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
