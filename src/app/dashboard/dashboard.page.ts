@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { APIService } from '../apiservice.service';
 
 @Component({
   selector: 'app-dashboard',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DashboardPage implements OnInit {
 
-  constructor() { }
+  constructor(private api : APIService) { }
+  
 
   ngOnInit() {
+    this.api.getPokemon().subscribe((response) => {
+      console.log(response);
+    });
   }
 
 }
