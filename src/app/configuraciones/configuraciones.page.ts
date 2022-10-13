@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PokemonServiceService } from '../Pokemon/pokemon-service.service';
 
 @Component({
   selector: 'app-configuraciones',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ConfiguracionesPage implements OnInit {
 
-  constructor() { }
+  constructor(
+    private dbService : PokemonServiceService
+  ) { }
 
   ngOnInit() {
+    this.dbService.Guardar("pokemoncito", { nombre: "Chorizard", tipo: "Electrico" });
+    this.dbService.Obtener(this);
   }
 
 }
