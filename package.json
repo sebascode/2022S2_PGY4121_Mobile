@@ -24,6 +24,8 @@
     "@capacitor/haptics": "4.0.1",
     "@capacitor/keyboard": "4.0.1",
     "@capacitor/status-bar": "4.0.1",
+    "@ionic-native/camera": "^5.36.0",
+    "@ionic-native/geolocation": "^5.36.0",
     "@ionic/angular": "^6.1.9",
     "@ionic/storage-angular": "^3.0.6",
     "rxjs": "~6.6.0",
