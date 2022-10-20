@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { GpsService } from '../api/gps.service';
 
 @Component({
   selector: 'app-dashboard',
@@ -7,10 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DashboardPage implements OnInit {
 
-  constructor() { }
+  constructor(private gps : GpsService) { }
   
 
   ngOnInit() {
+    this.gps.obtenerPosicion();
+    this.gps.obtenerFoto();
   }
 
 }
